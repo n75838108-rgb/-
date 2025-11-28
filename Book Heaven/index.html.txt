@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Книжковий Рай — приклад</title>
+
+  <!-- Google Fonts: Roboto + Lora -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700;400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- MAIN -->
+  <section class="section-main">
+    <img class="section-main-logo" src="images/logo.png" alt="логотип">
+    <h1 class="section-main-title">Книжковий Рай</h1>
+    <h2 class="section-main-subtitle">Відкрий для себе наступну чудову книгу</h2>
+    <button class="section-main-button" type="button">Дізнатися більше</button>
+  </section>
+
+  <!-- SECOND SECTION -->
+  <section class="second-section">
+    <img src="images/library.jpeg" alt="зображення бібліотеки" class="second-section-img">
+    <div class="second-section-info">
+      <h3 class="section-subtitle">ЛАСКАВО ПРОСИМО ДО КНИЖКОВОГО РАЮ</h3>
+      <h3 class="section-title">Про нашу бібліотеку</h3>
+      <p class="second-section-text">
+        Ласкаво просимо до нашої бібліотеки, де ви знайдете широкий вибір книг для будь-якого віку та вподобань. Приходьте та насолоджуйтесь читанням у затишній атмосфері.
+      </p>
+      <p class="second-section-name">
+        <span class="second-section-name2">ІВАН ІВАНЕНКО</span> - засновник Книжкового Раю
+      </p>
+    </div>
+  </section>
+
+  <!-- THIRD SECTION -->
+  <section class="third-section">
+    <h3 class="section-subtitle">РЕКОМЕНДОВАНІ КНИГИ</h3>
+    <h3 class="section-title">Наша колекція</h3>
+
+    <div class="third-section-books">
+      <!-- card 1 -->
+      <div class="third-section-book">
+        <img src="images/book1.png" alt="книга 1" class="book-img">
+        <h4 class="book-title">Маленький принц</h4>
+        <p class="book-author">Антуан де Сент Екзюпері</p>
+        <p class="book-price">150 грн</p>
+      </div>
+
+      <!-- card 2 -->
+      <div class="third-section-book">
+        <img src="images/book2.png" alt="книга 2" class="book-img">
+        <h4 class="book-title">Книга 2</h4>
+        <p class="book-author">Автор 2</p>
+        <p class="book-price">220 грн</p>
+      </div>
+
+      <!-- card 3 -->
+      <div class="third-section-book">
+        <img src="images/book3.png" alt="книга 3" class="book-img">
+        <h4 class="book-title">Книга 3</h4>
+        <p class="book-author">Автор 3</p>
+        <p class="book-price">180 грн</p>
+      </div>
+
+      <!-- card 4 -->
+      <div class="third-section-book">
+        <img src="images/book4.png" alt="книга 4" class="book-img">
+        <h4 class="book-title">Книга 4</h4>
+        <p class="book-author">Автор 4</p>
+        <p class="book-price">200 грн</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <h3 class="section-title footer-title">КНИЖКОВИЙ РАЙ</h3>
+    <h3 class="section-title footer-title">Приєднуйтесь до нашої спільноти</h3>
+
+    <p class="footer-text">
+      <span class="footer-text-main">Підпишіться на нашу розсилку, щоб отримувати останні новини про новинки, ексклюзивні пропозиції та багато іншого.</span><br>
+      Для запитів, будь ласка, зв’яжіться з нами за номером (+380) 123-456-789
+    </p>
+
+    <form action="#" class="footer-form">
+      <p class="form-title">Ім'я</p>
+      <input type="text" id="name" class="form-input">
+
+      <p class="form-title">Електронна пошта</p>
+      <input type="email" id="email" class="form-input">
+
+      <p class="form-title">Телефон</p>
+      <input type="tel" id="phone" class="form-input">
+
+      <button class="footer-button" type="button">Підписатися</button>
+    </form>
+  </footer>
+
+</body>
+</html>
